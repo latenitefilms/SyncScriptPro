@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://syncscriptpro.fcp.cafe/sitemap.xml.gz
