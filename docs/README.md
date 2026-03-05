@@ -1,70 +1,76 @@
 # SyncScript Pro
 
+!!!tip Now in public beta! 🥳
+SyncScript Pro is currently in public beta.\
+You can download it on Apple's [TestFlight](https://testflight.apple.com/join/T1r9q74W).
+!!!
+
 **SyncScript Pro** allows you to synchronise Script Keywords with transcribed Captions and generate `FCPXML` Titles for Final Cut Pro.
 
-> [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](/buy/)
+![](../static/syncscript-pro-01.png)
+
+![](../static/syncscript-pro-02.png)
 
 ---
 
 ## Features
 
 ### Page 1: Script Parsing
-- Parse screenplay/script files (PDF, TXT)
-- Extract dialogue keywords with character names
+- Parse screenplay/script files (`PDF` and `TXT`)
+- Extract dialogue Keywords with character names
 - Support for scene numbers and take information
 
 ### Page 2: Autosequence Generation
-- Import FCPXML from Final Cut Pro browser
-- Generate autosequence timeline from clips
-- Audio export for transcription
+- Import `FCPXML` from Final Cut Pro Browser
+- Generate **Auto Sequence** Timeline from Clips
+- Audio export for Transcription
 
 ### Page 3: Transcription
-- Transcribe audio using **Parakeet** (v2/v3) or **Apple Speech Pro** (macOS 26+)
+- Transcribe audio using **Parakeet** (`v2`/`v3`) or **Apple Speech Pro** (macOS 26 Tahoe)
 - Speaker diarization support
-- Generate captions with precise timing
+- Generate Captions with precise timing
 
 ### Page 4: Caption Matching
-- Match script keywords to transcribed captions
+- Match script keywords to transcribed Captions
 - Semantic matching using embeddings
-- Import FCPXML timeline with captions
+- Import `FCPXML` timeline with Captions
 
 ### Page 5: Titles to FCP
-- Generate titles for matched keywords
+- Generate Titles for matched Keywords
 - Speaker-specific roles for color coding
 - Trigger phrase support (start/end triggers)
-- Make "Action-Cut" ranges
+- Make **Action Cut** ranges
 - Export to Final Cut Pro
 
 ### Page 6: Keywords to FCP
 - **Titles to Keywords** - Convert timeline titles to keywords on browser clips (based on CommandPost's approach)
-- Convert matched titles back to keywords on the original source clips
+- Convert matched Titles back to Keywords on the original source clips
 
 ---
 
-## Titles to Keywords Feature
+## Titles to Keywords
 
 Based on CommandPost's **Titles to Keywords** toolbox, this feature:
 
-1. Finds all titles on the timeline with their absolute positions
-2. Finds clips in the spine with their timing information
-3. Checks which titles intersect with which clips
-4. Converts timeline positions to source clip internal timecodes
-5. Adds `<keyword>` elements to clips in the EVENT (browser), not the timeline
+- Finds all titles on the Timeline with their absolute positions
+- Finds clips in the Spine with their timing information
+- Checks which Titles intersect with which clips
+- Converts timeline positions to source clip internal timecodes
+- Adds `<keyword>` elements to clips in the Event Browser, not the Timeline
 
 ---
 
-## FCP Event Naming
+## Event Naming
 
-The app creates consistently named events when exporting to Final Cut Pro:
+SyncScript Pro creates consistently named Events when exporting to Final Cut Pro:
 
-- **02 Auto Sequence** - Generated autosequence timeline
-- **03 Transcribe Captions** - Transcribed captions
-- **05 Titles** - Generated titles for matched keywords
-- **06 Keywords** - Keywords applied to browser clips
+- **02 Auto Sequence** - Generated Auto Sequence timeline
+- **03 Transcribe Captions** - Transcribed Captions
+- **05 Titles** - Generated Titles for matched keywords
+- **06 Keywords** - Keywords applied to Browser Clips
 
 ---
 
 ## FCPXML Support
 
-- Supports FCPXML versions up to **1.14**
-- Uses local FCPXMLKit package for parsing and validation
+- Supports FCPXML versions up to **FCPXML v1.14**.

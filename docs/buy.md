@@ -1,10 +1,13 @@
 # Buy on Mac App Store
 
-**SyncScript Pro** is a one-time payment of **USD$79.99** on the **Mac App Store**.
+!!!tip Now in public beta! 🥳
+SyncScript Pro is currently in public beta.\
+You can download it on Apple's [TestFlight](https://testflight.apple.com/join/T1r9q74W).
+!!!
+
+**SyncScript Pro** will be a one-time payment of **USD$79.99** on the **Mac App Store** (subject to change prior to release).
 
 There is no free trial.
-
-> [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](https://apps.apple.com/app/syncscript-pro/id6758911364)
 
 You can find information about Educational Pricing [here](/educational/).
 
