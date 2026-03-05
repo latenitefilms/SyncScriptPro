@@ -5,7 +5,7 @@ SyncScript Pro is currently in public beta.\
 You can download it on Apple's [TestFlight](https://testflight.apple.com/join/T1r9q74W).
 !!!
 
-**SyncScript Pro** allows you to synchronise Script Keywords with transcribed Captions and generate `FCPXML` Titles for Final Cut Pro.
+**SyncScript Pro** allows you to synchronise script lines with transcribed Captions and generate Keywords on Browser clips for script lines.
 
 ![](../static/syncscript-pro-01.png)
 
